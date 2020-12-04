@@ -39,6 +39,14 @@ function(pront)
 endfunction()
 
 function(pront)
-        message("pront wrapped") # all arguments which were defined.
+        message("pront wrapped")
         _pront()
 endfunction()
+
+#Uncomment this code. and you will get an infinite recursion -> SIGSEGV
+#function(pront)
+#        message("pront wrapped")
+#        message("pront wrapped twice ") 
+#        _pront()
+#endfunction()
+
