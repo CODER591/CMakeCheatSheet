@@ -11,4 +11,4 @@ With explained types of linking (PUBLIC / PRIVATE / INTERFACE)
 4) Example4 - Functions and macros, Properties, Generator Expressions, Modules, Policies.
 5) Example5 - Build types and Buld configurations
 6) Example6 - Compiler and Linker settings flags
-
+7) Example7 - Language standard setting and managing
