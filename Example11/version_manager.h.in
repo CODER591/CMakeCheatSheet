@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+//Generally speaking it could be splitted to .h and .cpp -> and created static/object library.
+//But it actually is up to You.
+
+const char* project_version() {
+  return "@PROJECT_VERSION@";
+}
+// +0 is required to avoid compilation errors. as those "defines" could be omitted
+unsigned int getProjectVersionMajor() {
+  return @FooBar_VERSION_MAJOR@ +0;
+}
+unsigned int getProjectVersionMinor() {
+  return @FooBar_VERSION_MINOR@ +0;
+}
+unsigned int getProjectVersionPatch() {
+  return @FooBar_VERSION_PATCH@ +0;
+}
+unsigned int getProjectVersionTweak() {
+  return @FooBar_VERSION_TWEAK@ +0;
+}
+
+const char* getLatestCommitHash(){
+  return "@PROJECT_LATEST_COMMIT_GIT_HASH@";
+}
