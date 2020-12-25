@@ -12,7 +12,7 @@ With explained types of linking (PUBLIC / PRIVATE / INTERFACE)
 5) Example5  -  Build types and Buld configurations
 6) Example6  -  Compiler and Linker settings flags
 7) Example7  -  Language standard setting and managing
-8) Example8  - 
+8) Example8  -
 9) Example9  -  Custom tasks and targets
 10)Example10 -  Working with files and filesystem
 11)Example11 -  Specifiying version details
