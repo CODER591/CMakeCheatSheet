@@ -1,0 +1,3 @@
+CMake Version: ${CMAKE_VERSION}
+Substitution works inside quotes too: "${nice_variable}"
+Example with @: @nice_variable@
